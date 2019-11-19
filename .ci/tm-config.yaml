@@ -8,7 +8,7 @@ test:
 
   gardener:
     commit:
-      prHead: true
+      value: 1d0bd50de422c0568f394b6e3e6b44d49808d92f
 
   gardener-extensions: 
     value: |
