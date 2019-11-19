@@ -3,6 +3,8 @@ Copyright (c) 2017-2019 SAP SE or an SAP affiliate company. All rights reserved.
 
 ## Seed Source
 
+dummy
+
 The source code of this component was seeded based on a copy of the following files from [github.com/kubernetes](github.com/kubernetes):
 
 Sample APIServer.  
