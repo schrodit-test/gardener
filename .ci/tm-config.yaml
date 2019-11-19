@@ -1,0 +1,59 @@
+
+# configure default values for pull request tests
+test:
+  hostprovider: gke
+
+  gardensetup:
+    revision: "master"
+
+  gardener:
+    commit:
+      prHead: true
+
+  gardener-extensions: |
+    "dns-external": {
+      "repo": "https://github.com/gardener/external-dns-management.git",
+      "version": "0.7.2"
+    },
+    "networking-calico": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "os-coreos": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "os-suse-jeos": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "os-ubuntu": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "provider-aws": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "provider-azure": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "provider-gcp": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    },
+    "provider-openstack": {
+      "repo": "https://github.com/gardener/gardener-extensions.git",
+      "version": "0.14.4"
+    }
+
+  shootFlavors:
+  - provider: gcp
+    kubernetes:
+      versions:
+      - version: 1.15.5
+  - provider: aws
+    kubernetes:
+      versions:
+      - version: 1.15.5
