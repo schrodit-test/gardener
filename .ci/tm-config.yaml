@@ -43,7 +43,7 @@ test:
         },
         "provider-gcp": {
           "repo": "https://github.com/gardener/gardener-extensions.git",
-          "version": "0.14.4"
+          "version": "*"
         },
         "provider-openstack": {
           "repo": "https://github.com/gardener/gardener-extensions.git",
