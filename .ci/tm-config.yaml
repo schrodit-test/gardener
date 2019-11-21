@@ -7,7 +7,7 @@ test:
     revision: "master"
 
   gardener:
-    version: "0.32.1"
+    version: "0.30.0"
 
   gardener-extensions: 
     value: |
