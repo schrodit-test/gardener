@@ -7,8 +7,7 @@ test:
     revision: "master"
 
   gardener:
-    commit:
-      value: 1d0bd50de422c0568f394b6e3e6b44d49808d92f
+    version: "0.32.1"
 
   gardener-extensions: 
     value: |
