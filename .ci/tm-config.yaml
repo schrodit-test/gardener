@@ -17,25 +17,25 @@ test:
       networking-calico:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      os-coreos":
+      os-coreos:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      os-suse-jeos":
+      os-suse-jeos:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      os-ubuntu":
+      os-ubuntu:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      provider-aws":
+      provider-aws:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      provider-azure":
+      provider-azure:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      provider-gcp":
+      provider-gcp:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
-      provider-openstack":
+      provider-openstack:
           repo: "https://github.com/gardener/gardener-extensions.git",
           version: "latest"
 
