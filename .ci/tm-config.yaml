@@ -15,28 +15,28 @@ test:
           repo: "https://github.com/gardener/external-dns-management.git"
           version: "latest"
       networking-calico:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       os-coreos:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       os-suse-jeos:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       os-ubuntu:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       provider-aws:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       provider-azure:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       provider-gcp:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
       provider-openstack:
-          repo: "https://github.com/gardener/gardener-extensions.git",
+          repo: "https://github.com/gardener/gardener-extensions.git"
           version: "latest"
 
   shootFlavors:
